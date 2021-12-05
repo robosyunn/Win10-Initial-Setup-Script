@@ -1,0 +1,260 @@
+##########
+# Win 10 / Server 2016 / Server 2019 Initial Setup Script - Default preset
+# Author: Disassembler <disassembler@dasm.cz>
+# Version: v3.10, 2020-07-15
+# Source: https://github.com/Disassembler0/Win10-Initial-Setup-Script
+##########
+
+### Require administrator privileges ###
+RequireAdmin
+
+### Privacy Tweaks ###
+EnableTelemetry
+EnableCortana
+EnableWiFiSense
+EnableSmartScreen
+EnableWebSearch
+EnableAppSuggestions
+EnableActivityHistory
+EnableSensors
+EnableLocation
+EnableMapUpdates
+EnableFeedback
+EnableTailoredExperiences
+EnableAdvertisingID
+EnableWebLangList
+EnableBiometrics
+EnableCamera
+EnableMicrophone
+EnableErrorReporting
+SetP2PUpdateInternet          # SetP2PUpdateDisable
+EnableDiagTrack
+EnableWAPPush
+DisableClearRecentFiles
+EnableRecentFiles
+
+### UWP Privacy Tweaks ###
+EnableUWPBackgroundApps
+EnableUWPVoiceActivation
+EnableUWPNotifications
+EnableUWPAccountInfo
+EnableUWPContacts
+EnableUWPCalendar
+EnableUWPPhoneCalls
+EnableUWPCallHistory
+EnableUWPEmail
+EnableUWPTasks
+EnableUWPMessaging
+EnableUWPRadios
+EnableUWPOtherDevices
+EnableUWPDiagInfo
+EnableUWPFileSystem
+EnableUWPSwapFile
+
+### Security Tweaks ###
+SetUACHigh
+DisableSharingMappedDrives
+EnableAdminShares
+EnableFirewall
+ShowDefenderTrayIcon
+EnableDefender
+EnableDefenderCloud
+DisableCtrldFolderAccess
+DisableCIMemoryIntegrity
+DisableDefenderAppGuard
+ShowAccountProtectionWarn
+EnableDownloadBlocking
+EnableScriptHost
+DisableDotNetStrongCrypto
+DisableMeltdownCompatFlag
+DisableF8BootMenu
+EnableBootRecovery
+EnableRecoveryAndReset
+SetDEPOptIn
+
+### Network Tweaks ###
+SetCurrentNetworkPublic
+SetUnknownNetworksPublic
+EnableNetDevicesAutoInst
+# EnableHomeGroups
+# EnableSMB1
+EnableSMBServer
+EnableNetBIOS
+EnableLLMNR
+EnableLLDP
+EnableLLTD
+EnableMSNetClient
+EnableQoS
+EnableIPv4
+EnableIPv6
+EnableNCSIProbe
+EnableConnectionSharing
+EnableRemoteAssistance
+DisableRemoteDesktop
+
+### Service Tweaks ###
+EnableUpdateMSRT
+EnableUpdateDriver
+DisableUpdateMSProducts
+EnableUpdateAutoDownload
+EnableUpdateRestart
+EnableMaintenanceWakeUp
+EnableAutoRestartSignOn
+EnableSharedExperiences
+DisableClipboardHistory
+EnableAutoplay
+EnableAutorun
+EnableRestorePoints
+DisableStorageSense
+EnableDefragmentation
+EnableSuperfetch
+EnableIndexing
+EnableRecycleBin
+DisableNTFSLongPaths
+EnableNTFSLastAccess
+SetBIOSTimeLocal
+DisableHibernation
+EnableSleepButton
+EnableSleepTimeout
+EnableFastStartup
+EnableAutoRebootOnCrash
+
+### UI Tweaks ###
+EnableActionCenter
+EnableLockScreen
+EnableLockScreenRS1
+ShowNetworkOnLockScreen
+ShowShutdownOnLockScreen
+EnableLockScreenBlur
+EnableAeroShake
+EnableAccessibilityKeys
+HideTaskManagerDetails
+HideFileOperationsDetails
+DisableFileDeleteConfirm
+ShowTaskbarSearchIcon         # ShowTaskbarSearchBox
+ShowTaskView
+ShowLargeTaskbarIcons
+SetTaskbarCombineAlways         # SetTaskbarCombineWhenFull     # SetTaskbarCombineNever
+ShowTaskbarPeopleIcon
+HideTrayIcons
+HideSecondsFromTaskbar
+EnableSearchAppInStore
+EnableNewAppPrompt
+ShowRecentlyAddedApps
+ShowMostUsedApps
+SetWinXMenuCmd
+SetControlPanelLargeIcons     # SetControlPanelCategories
+EnableShortcutInName
+ShowShortcutArrow
+SetVisualFXAppearance
+DisableTitleBarColor
+SetAppsLightMode
+SetSystemDarkMode
+RemoveENKeyboard
+DisableNumlock
+EnableEnhPointerPrecision
+SetSoundSchemeDefault
+EnableStartupSound
+EnableChangingSoundScheme
+DisableVerboseStatus
+EnableF1HelpKey
+
+### Explorer UI Tweaks ###
+HideExplorerTitleFullPath
+HideKnownExtensions
+HideHiddenFiles
+HideSuperHiddenFiles
+HideEmptyDrives
+HideFolderMergeConflicts
+DisableNavPaneExpand
+HideNavPaneAllFolders
+HideNavPaneLibraries
+DisableFldrSeparateProcess
+DisableRestoreFldrWindows
+HideEncCompFilesColor
+EnableSharingWizard
+ShowSelectCheckboxes
+ShowSyncNotifications
+ShowRecentShortcuts
+SetExplorerQuickAccess
+ShowQuickAccess
+ShowRecycleBinOnDesktop
+HideThisPCFromDesktop
+HideUserFolderFromDesktop
+HideControlPanelFromDesktop
+HideNetworkFromDesktop
+ShowDesktopIcons
+HideBuildNumberFromDesktop
+ShowDesktopInThisPC
+ShowDesktopInExplorer
+ShowDocumentsInThisPC
+ShowDocumentsInExplorer
+ShowDownloadsInThisPC
+ShowDownloadsInExplorer
+ShowMusicInThisPC
+ShowMusicInExplorer
+ShowPicturesInThisPC
+ShowPicturesInExplorer
+ShowVideosInThisPC
+ShowVideosInExplorer
+Show3DObjectsInThisPC
+Show3DObjectsInExplorer
+ShowNetworkInExplorer
+ShowIncludeInLibraryMenu
+ShowGiveAccessToMenu
+ShowShareMenu
+EnableThumbnails
+EnableThumbnailCache
+EnableThumbsDBOnNetwork
+
+### Application Tweaks ###
+EnableOneDrive
+InstallOneDrive
+InstallMsftBloat
+InstallThirdPartyBloat
+InstallWindowsStore
+EnableXboxFeatures
+EnableFullscreenOptims
+EnableAdobeFlash
+EnableEdgePreload
+EnableEdgeShortcutCreation
+EnableIEFirstRun
+EnableFirstLogonAnimation
+EnableMediaSharing
+EnableMediaOnlineAccess
+DisableDeveloperMode
+InstallMediaPlayer
+InstallInternetExplorer
+InstallWorkFolders
+InstallHelloFace
+InstallMathRecognizer
+InstallPowerShellV2
+InstallPowerShellISE
+UninstallLinuxSubsystem
+UninstallHyperV
+InstallSSHClient
+UninstallSSHServer
+UninstallTelnetClient
+UninstallNET23
+UnsetPhotoViewerAssociation
+RemovePhotoViewerOpenWith
+InstallPDFPrinter
+InstallXPSPrinter
+AddFaxPrinter
+InstallFaxAndScan
+
+### Server Specific Tweaks ###
+# HideServerManagerOnLogin      # ShowServerManagerOnLogin
+# DisableShutdownTracker        # EnableShutdownTracker
+# DisablePasswordPolicy         # EnablePasswordPolicy
+# DisableCtrlAltDelLogin        # EnableCtrlAltDelLogin
+# DisableIEEnhancedSecurity     # EnableIEEnhancedSecurity
+# EnableAudio                   # DisableAudio
+
+### Unpinning ###
+# UnpinStartMenuTiles
+# UnpinTaskbarIcons
+
+### Auxiliary Functions ###
+WaitForKey
+Restart
